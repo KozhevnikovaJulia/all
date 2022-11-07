@@ -1,0 +1,193 @@
+  /*****************************************/
+  /* TOOLS SECTION */
+  /*****************************************/
+  
+  .tool-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgba(255, 255, 255, 0.45); */
+    line-height: 1.2;
+    border-radius: 11px;
+  }
+  
+  .top-tool {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.42rem;
+    color: #333;
+    /* box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.08); */
+    /* box-shadow: 0 1.4rem 1rem -1rem rgba(0, 0, 0, 0.09); */
+    height: 12rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 2rem 2rem 2rem;
+    border-radius: 11px;
+    /* margin: 3rem 0 2rem 0; */
+    width: 26rem;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    /* background-color: rgba(255, 255, 255, 0.01); */
+  }
+  
+  .tool-img {
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 11px;
+    color: #4f5052;
+    margin-top: 1.3rem;
+    margin-bottom: 1.2rem;
+    /* margin-top: 0.3rem;
+    padding: 1rem 1rem; */
+  }
+ 
+  .tool {
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 26rem;
+    height: 38rem;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.08);
+    border-radius: 11px;
+    transition: all 0.4s;
+    margin-top: 2rem;
+  }
+  
+  .tool:hover {
+    transform: translateY(-0.7rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  }
+  
+  .tool-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tool-content {
+    padding: 1rem 1.8rem 1rem;
+    box-shadow: 0 1.4rem 1rem -1rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .tool-tags {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .tag {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  
+    color: #333;
+    border-radius: 100px;
+    font-weight: 600;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  
+  .tool-title {
+    height: 5rem;
+    align-items: center;
+    font-size: 2.8rem;
+    color: #333;
+    font-weight: 600;
+    transition: all 0.4s;
+    text-align: center;
+    line-height: 1.1;
+    margin-top: 2rem;
+  }
+  
+  .btn--download {
+    background-color: white;
+    width: 13rem;
+    padding: 1rem 0.4rem;
+  }
+  .btn--disabled {
+    background-color: grey!important;
+    width: 13rem;
+    padding: 1rem 0.4rem;
+    pointer-events: none;
+  }
+  
+  .tool-freq {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tools-icon {
+    display: flex;
+    justify-content: center;
+    gap: 32rem;
+  }
+  
+  .btn-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0 2rem 0;
+  }
+  
+  .videotron {
+    display: flex;
+    align-items: center;
+  }
+  
+  /*****************************************/
+  /* цвета для тегов в зависимости от медиа*/
+  /*****************************************/
+  
+  .tag--tv {
+    background-color: #ffc7c6;
+  }
+  .tag--olv {
+    background-color: #a5d1ee;
+  }
+  .tag--ooh {
+    background-color: #adb9ca;
+  }
+  .tag--radio {
+    background-color: #dfe4e8;
+  }
+  
+  .tag--digital {
+    background-color: #74a7c8;
+  }
+  .tag--digital-audio {
+    background-color: #a2c3da;
+  }
+  
+  /*****************************************/
+  /* не используется, так как захайдила
+   подробный текст описания тула*/
+  /*****************************************/
+  
+  .tool-text {
+    width: 30rem;
+    height: 20rem;
+    padding: 2rem 2rem;
+    /* background-color: rgba(250, 250, 250, 0.75); */
+    border-radius: 11px;
+  }
+  
+  .tool-atributes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .tool-atribute {
+    list-style-position: inside;
+    font-size: 1.36rem;
+  }
+  
+  .tool-atribute::marker {
+    color: #e03131;
+  }
+  
+  .background {
+    background-color: rgba(255, 255, 255, 0.55);
+  }
+  

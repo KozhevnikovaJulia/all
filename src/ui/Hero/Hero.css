@@ -1,0 +1,46 @@
+  /*****************************************/
+  /* HERO SECTTION */
+  /*****************************************/
+  .hero {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0.9rem 2.8rem;
+    transition: all 0.4s;
+    position: relative;
+    /* background-color: rgba(255, 255, 255, 0.65);
+    border-bottom: 3px solid white; */
+  }
+  
+  .logo {
+    height: 12rem;
+  }
+  
+  .hero--mi {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    font-size: 3.8rem;
+    color: #212529;
+  }
+  
+  .mi--magic {
+    transition: all 0.4s;
+  }
+  
+  .mi--magic:hover {
+    color: #e03131;
+  }
+  
+  .advice {
+    font-size: 1.6rem;
+    padding: 0rem 0 1rem 15rem;
+  }
+  
+  .logo--text {
+    display: flex;
+    align-items: center;
+    gap: 2.8rem;
+  }
+  

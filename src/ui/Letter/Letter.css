@@ -1,0 +1,54 @@
+  /*****************************************/
+  /* BUTTON FOR LETTER */
+  /*****************************************/
+  
+  .letter-tool {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 2rem;
+    position: absolute;
+    right: 2.5rem;
+    top: 1rem;
+    line-height: 1.5;
+    z-index: 1;
+  }
+  
+  .letter {
+    font-size: 1.6rem;
+  }
+  
+  .icon-letter {
+    width: 3rem;
+    height: 3rem;
+    padding: 0.4rem;
+    color: #333;
+  }
+  .btn--letter:link,
+  .btn--letter:visited {
+    padding: 0.6rem;
+    background-color: white;
+    box-shadow: 0 -0.05rem 0.8rem 0.3rem rgba(225, 5, 0, 0.25),
+      0 0.5rem 0.5rem rgba(225, 5, 0, 0.22);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 20px;
+    transition: all 0.3s;
+  }
+  
+  .icon-letter {
+    color: #495057;
+  }
+  
+  .help-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .wrapper-hero {
+    display: flex;
+    justify-content: space-between;
+  }
+  
