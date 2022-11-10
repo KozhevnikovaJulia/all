@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/all/static/css/main.549921c5.chunk.css",
-    "main.js": "/all/static/js/main.f5bf66c1.chunk.js",
-    "main.js.map": "/all/static/js/main.f5bf66c1.chunk.js.map",
+    "main.css": "/all/static/css/main.a9c18cb8.chunk.css",
+    "main.js": "/all/static/js/main.0eb325fc.chunk.js",
+    "main.js.map": "/all/static/js/main.0eb325fc.chunk.js.map",
     "runtime-main.js": "/all/static/js/runtime-main.65cf9ba8.js",
     "runtime-main.js.map": "/all/static/js/runtime-main.65cf9ba8.js.map",
-    "static/js/2.b1c86857.chunk.js": "/all/static/js/2.b1c86857.chunk.js",
-    "static/js/2.b1c86857.chunk.js.map": "/all/static/js/2.b1c86857.chunk.js.map",
+    "static/js/2.c358f635.chunk.js": "/all/static/js/2.c358f635.chunk.js",
+    "static/js/2.c358f635.chunk.js.map": "/all/static/js/2.c358f635.chunk.js.map",
     "index.html": "/all/index.html",
-    "static/css/main.549921c5.chunk.css.map": "/all/static/css/main.549921c5.chunk.css.map",
-    "static/js/2.b1c86857.chunk.js.LICENSE.txt": "/all/static/js/2.b1c86857.chunk.js.LICENSE.txt",
+    "static/css/main.a9c18cb8.chunk.css.map": "/all/static/css/main.a9c18cb8.chunk.css.map",
+    "static/js/2.c358f635.chunk.js.LICENSE.txt": "/all/static/js/2.c358f635.chunk.js.LICENSE.txt",
     "static/media/18_04_2022_Reg budget calculator.e99d193f.xlsm": "/all/static/media/18_04_2022_Reg budget calculator.e99d193f.xlsm",
     "static/media/index.css": "/all/static/media/mohammad-alizade-XgeZu2jBaVI-unsplash.dd578250.jpg",
     "static/media/Частотный планировщик.40e5cbc9.rar": "/all/static/media/Частотный планировщик.40e5cbc9.rar"
   },
   "entrypoints": [
     "static/js/runtime-main.65cf9ba8.js",
-    "static/js/2.b1c86857.chunk.js",
-    "static/css/main.549921c5.chunk.css",
-    "static/js/main.f5bf66c1.chunk.js"
+    "static/js/2.c358f635.chunk.js",
+    "static/css/main.a9c18cb8.chunk.css",
+    "static/js/main.0eb325fc.chunk.js"
   ]
 }
