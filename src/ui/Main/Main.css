@@ -191,3 +191,43 @@
     background-color: rgba(255, 255, 255, 0.55);
   }
   
+
+  /*****************************************/
+/* ДЛЯ Selected TV Planner */
+/*****************************************/
+
+.developing {
+  display: flex;
+  align-items: center;
+  width: 26rem;
+  justify-content: center;
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(147, 146, 146, 0.965),
+    rgba(147, 146, 146, 0.965),
+    15px,
+    rgb(84, 83, 83) 0,
+    rgb(84, 83, 83) 30px
+  );
+  box-shadow: 0 -0.05rem 0.5rem 0.3rem rgba(107, 105, 106, 0.25),
+    0 0.5rem 0.5rem rgba(83, 80, 80, 0.22);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  letter-spacing: 2px;
+}
+
+.develop-text {
+  font-size: 1.4rem;
+}
+
+.tool-img-grey {
+  width: 3.8rem;
+  height: 3.8rem;
+  border-radius: 11px;
+  color: #999da0;
+  margin-top: 0.3rem;
+  padding: 1rem 1rem;
+}

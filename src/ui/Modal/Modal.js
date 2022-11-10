@@ -84,7 +84,7 @@ export const Modal = (props) => {
                <label>Ваш e-mail</label>
                <div class={findUserEmailError()}><InputText type="email" value={userEmail} onChange={onChangeUserEmail} /></div> 
                <label>Выберите инструмент</label>
-               <Select placeholderText={'-- Инструменты --'} name={'tool'} value={selectedTool} onChange={onChangeTool} items={['Частотный планировщик','Flight Media Mix Calculator', 'VideoTron 1.5', 'Reg Budget Calculator', 'AudioTron', 'ContentTV Planner']} />     
+               <Select placeholderText={'-- Инструменты --'} name={'tool'} value={selectedTool} onChange={onChangeTool} items={[ 'Flight Media Mix Calculator', 'VideoTron 1.5', 'AudioTron', 'Reg Budget Calculator', 'Frequency Planner' ]} />     
                <label>Выберите тему письма</label>
                <Select placeholderText={'-- Тема --'} name={'theme'} value={selectedTheme} onChange={onChangeTheme} items={['Технические вопросы, проблемы', 'Интерфейс: вопросы, предложения']} />
                <a id='hyperlink' href="#top" class={selectedTool === '' ||  selectedTheme === '' || userName ==='' || userEmail ===''? "btn btn--disabled btn-flex" : "btn btn--download btn-flex"}>Написать письмо</a>             

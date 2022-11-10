@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import './Main.css';
 import frequencyScheduler from '../../assets/files/Частотный планировщик.rar';
 import regBudgetCalculator from '../../assets/files/18_04_2022_Reg budget calculator.xlsm';
-import { IoCaretForwardCircleOutline, IoPieChartOutline, IoVolumeMediumOutline, IoTvOutline, IoCashOutline, IoPulseOutline } from 'react-icons/io5';
+import { IoCaretForwardCircleOutline, IoPieChartOutline, IoVolumeMediumOutline, IoTvOutline, IoCashOutline, IoPulseOutline, IoWarningOutline } from 'react-icons/io5';
 
 export const Main = () => {
   const isInitialized = useSelector(state => state.app.isInitialized);
@@ -96,7 +96,7 @@ export const Main = () => {
 
 
 
-              <div class="tool">
+              {/* <div class="tool">
                 <div class="tool-content">
                   <div class="tool-tags">
                       <IoTvOutline className="tool-img color--mediamix"/>
@@ -118,7 +118,33 @@ export const Main = () => {
                 </div>
               </div>
             </div>
-              
+               */}
+
+
+            <div class="tool">
+              <div class="tool-content">
+                 <div class="tool-tags">
+                     <IoWarningOutline className="tool-img color--mediamix"/>
+                 </div>
+                 <div class="tool-flex">
+                   <div class="tags">
+                   <span class="developing">В разработке</span>
+                 </div>
+                 <h2 class="tool-title"><span class="greycolor">Selected</span><br/>TV Planner</h2>
+               </div>
+               
+               <div class="btn-flex">
+                 <a href="https://stage.tvplanner.mediainstinctgroup.ru/" target={"https://stage.tvplanner.mediainstinctgroup.ru/"} class="btn-act btn--disabled">ПЕРЕЙТИ &rarr;</a>
+               </div>
+               </div>
+          
+              <div class="tool-card">
+                <p class="top-tool"><span class="just-bold">Определить <span class="bold">ЭФФЕКТИВНЫЙ СПЛИТ КАНАЛОВ</span> на базе гранулярного планирования тайм слотов</span></p>
+              </div>              
+            </div>
+
+          </div>
+
 
            <div class="container--2 grid grid--2-cols"> 
 
