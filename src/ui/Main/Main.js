@@ -148,8 +148,8 @@ export const Main = () => {
                       src={spinner}
                       alt='spinner'
                       style={{
-                        width: '45px',
-                        height: '45px',
+                        width: '60px',
+                        height: '60px',
                         borderRadius: '100px',
                       }}
                     />
