@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux';
 import './Main.css';
 import frequencyScheduler from '../../assets/files/Частотный планировщик.rar';
 import regBudgetCalculator from '../../assets/files/18_04_2022_Reg budget calculator.xlsm';
+import spinner from '../../assets/images/gear.gif';
 import { IoCaretForwardCircleOutline, IoPieChartOutline, IoVolumeMediumOutline, IoTvOutline, IoCashOutline, IoPulseOutline, IoWarningOutline } from 'react-icons/io5';
 
 export const Main = () => {
@@ -120,30 +121,41 @@ export const Main = () => {
             </div>
                */}
 
-
-            <div class="tool">
-              <div class="tool-content">
-                 <div class="tool-tags">
-                     <IoWarningOutline className="tool-img color--mediamix"/>
-                 </div>
-                 <div class="tool-flex">
-                   <div class="tags">
-                   <span class="developing">В разработке</span>
-                 </div>
-                 <h2 class="tool-title"><span class="greycolor">Selected</span><br/>TV Planner</h2>
-               </div>
+            <div class="tool" style={{position:'relative'}}>
+                <div class="tool-content">
+                  <div class="tool-tags">
+                      <IoTvOutline className="tool-img color--mediamix"/>
+                  </div>
+                  <div class="tool-flex">
+                    <div class="tags">
+                   <span class="tag tag--tv">TV</span>
+                  </div>
+                  <h2 class="tool-title"><span class="redcolor">Selected</span><br/>TV Planner</h2>
+                </div>
                
-               <div class="btn-flex">
-                 <a href="https://stage.tvplanner.mediainstinctgroup.ru/" target={"https://stage.tvplanner.mediainstinctgroup.ru/"} class="btn-act btn--disabled">ПЕРЕЙТИ &rarr;</a>
+                <div class="btn-flex">                 
+                  <div class="tags">
+                      <span class="developing">В разработке</span>
+                   </div>               
+                </div>
+              </div>
+               
+                <div class="tool-card">
+                  <p class="top-tool"><span class="just-bold">Определить <span class="bold">ЭФФЕКТИВНЫЙ СПЛИТ КАНАЛОВ</span> на базе гранулярного планирования тайм слотов</span></p>
+                </div>
+                <div className="spinnerWrapper">
+                    <img
+                      src={spinner}
+                      alt='spinner'
+                      style={{
+                        width: '45px',
+                        height: '45px',
+                        borderRadius: '100px',
+                      }}
+                    />
                </div>
-               </div>
-          
-              <div class="tool-card">
-                <p class="top-tool"><span class="just-bold">Определить <span class="bold">ЭФФЕКТИВНЫЙ СПЛИТ КАНАЛОВ</span> на базе гранулярного планирования тайм слотов</span></p>
-              </div>              
+              </div>
             </div>
-
-          </div>
 
 
            <div class="container--2 grid grid--2-cols"> 
