@@ -26,5 +26,5 @@ body {
   margin-bottom: 20px;
 }
 @media screen and (max-width: 1500px) {
-  body { zoom: 85%; }
+  body { zoom: 90%; }
 }
